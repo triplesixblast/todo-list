@@ -71,12 +71,9 @@ ul li{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    word-wrap: break-word;
     word-break: break-all;
-    white-space: normal;
-    min-width: none;
     flex: 1;
-    padding-right: 10px;
+    padding-right: 45px;
 }
 ul li::before{
     content: "";
@@ -104,7 +101,6 @@ span{
     position: absolute;
     right: 0;
     top: 10px;
-    right: -25px;
     width: 30px;
     height: 30px;
     font-size: 25px;
